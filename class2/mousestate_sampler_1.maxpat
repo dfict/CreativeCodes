@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 45.0, 79.0, 1060.0, 762.0 ],
+		"rect" : [ 45.0, 79.0, 1421.0, 1084.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -1293,67 +1293,7 @@
 					"basictuning" : 440,
 					"clipheight" : 31.200000000000003,
 					"data" : 					{
-						"clips" : [ 							{
-								"absolutepath" : "/Users/danielfishkin/professional/conn_college/CreativeCodes/un-normalized-soundfiles/birdsChirping_also.wav",
-								"filename" : "birdsChirping_also.wav",
-								"filekind" : "audiofile",
-								"id" : "u371004530",
-								"loop" : 0,
-								"content_state" : 								{
-									"pitchshift" : 1.000720807636329,
-									"speed" : 0.528376074271456
-								}
-
-							}
-, 							{
-								"absolutepath" : "/Users/danielfishkin/professional/conn_college/CreativeCodes/un-normalized-soundfiles/birdsChirping.wav",
-								"filename" : "birdsChirping.wav",
-								"filekind" : "audiofile",
-								"id" : "u795004526",
-								"loop" : 0,
-								"content_state" : 								{
-									"pitchshift" : 1.000720807636329,
-									"speed" : 0.528376074271456
-								}
-
-							}
-, 							{
-								"absolutepath" : "/Users/danielfishkin/professional/conn_college/CreativeCodes/un-normalized-soundfiles/fridgeDrone.wav",
-								"filename" : "fridgeDrone.wav",
-								"filekind" : "audiofile",
-								"id" : "u610004527",
-								"loop" : 0,
-								"content_state" : 								{
-									"pitchshift" : 1.000720807636329,
-									"speed" : 0.528376074271456
-								}
-
-							}
-, 							{
-								"absolutepath" : "/Users/danielfishkin/professional/conn_college/CreativeCodes/un-normalized-soundfiles/soundNoOneHasHeard.wav",
-								"filename" : "soundNoOneHasHeard.wav",
-								"filekind" : "audiofile",
-								"id" : "u946004528",
-								"loop" : 0,
-								"content_state" : 								{
-									"pitchshift" : 1.000720807636329,
-									"speed" : 0.528376074271456
-								}
-
-							}
-, 							{
-								"absolutepath" : "/Users/danielfishkin/professional/conn_college/CreativeCodes/un-normalized-soundfiles/waterRunning.wav",
-								"filename" : "waterRunning.wav",
-								"filekind" : "audiofile",
-								"id" : "u106004529",
-								"loop" : 0,
-								"content_state" : 								{
-									"pitchshift" : 1.000720807636329,
-									"speed" : 0.528376074271456
-								}
-
-							}
- ]
+						"clips" : [  ]
 					}
 ,
 					"followglobaltempo" : 0,
@@ -1369,8 +1309,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 38.0, 377.0, 170.0, 161.0 ],
 					"pitchcorrection" : 0,
-					"pitchshift" : [ 1.000720807636329 ],
-					"pitchshiftcent" : [ 1 ],
+					"pitchshift" : [ 0.642078399521569 ],
 					"quality" : "basic",
 					"timestretch" : [ 1.0 ]
 				}
@@ -1409,12 +1348,12 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-51",
-					"linecount" : 7,
+					"linecount" : 2,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 238.0, 380.5, 52.0, 114.0 ],
-					"text" : "drag your interview excerpts into here\n"
+					"patching_rect" : [ 238.0, 380.5, 128.80000114440918, 47.0 ],
+					"text" : "drag your soundfile excerpts into here\n"
 				}
 
 			}
@@ -1887,42 +1826,7 @@
 			"inherited_shortname" : 1
 		}
 ,
-		"dependency_cache" : [ 			{
-				"name" : "birdsChirping_also.wav",
-				"bootpath" : "~/professional/conn_college/CreativeCodes/un-normalized-soundfiles",
-				"patcherrelativepath" : "../un-normalized-soundfiles",
-				"type" : "WAVE",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "birdsChirping.wav",
-				"bootpath" : "~/professional/conn_college/CreativeCodes/un-normalized-soundfiles",
-				"patcherrelativepath" : "../un-normalized-soundfiles",
-				"type" : "WAVE",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "fridgeDrone.wav",
-				"bootpath" : "~/professional/conn_college/CreativeCodes/un-normalized-soundfiles",
-				"patcherrelativepath" : "../un-normalized-soundfiles",
-				"type" : "WAVE",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "soundNoOneHasHeard.wav",
-				"bootpath" : "~/professional/conn_college/CreativeCodes/un-normalized-soundfiles",
-				"patcherrelativepath" : "../un-normalized-soundfiles",
-				"type" : "WAVE",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "waterRunning.wav",
-				"bootpath" : "~/professional/conn_college/CreativeCodes/un-normalized-soundfiles",
-				"patcherrelativepath" : "../un-normalized-soundfiles",
-				"type" : "WAVE",
-				"implicit" : 1
-			}
- ],
+		"dependency_cache" : [  ],
 		"autosave" : 0,
 		"styles" : [ 			{
 				"name" : "AudioStatus_Menu",
