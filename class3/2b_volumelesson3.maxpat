@@ -60,7 +60,7 @@
 						}
 , 						{
 							"number" : 4,
-							"data" : [ 5, "obj-2", "flonum", "float", 1746.0, 5, "obj-4", "flonum", "float", -36.0, 6, "obj-8", "gain~", "list", 125, 10.0, 5, "obj-16", "toggle", "int", 0, 5, "obj-28", "flonum", "float", 0.297, 5, "obj-30", "flonum", "float", 0.382 ]
+							"data" : [ 5, "obj-2", "flonum", "float", 1171.0, 5, "obj-4", "flonum", "float", 5.0, 6, "obj-8", "gain~", "list", 125, 10.0, 5, "obj-16", "toggle", "int", 0, 5, "obj-28", "flonum", "float", 0.296999990940094, 5, "obj-30", "flonum", "float", 0.381999999284744 ]
 						}
 , 						{
 							"number" : 5,
@@ -256,7 +256,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 374.5, 86.000007999999994, 50.0, 22.0 ]
+					"patching_rect" : [ 374.5, 83.000007999999994, 50.0, 22.0 ]
 				}
 
 			}
