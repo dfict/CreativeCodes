@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 48.0, 79.0, 1295.0, 787.0 ],
+		"rect" : [ 48.0, 79.0, 1058.0, 787.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -49,7 +49,7 @@
 					"patching_rect" : [ 483.436004638671875, 191.5, 157.0, 60.0 ],
 					"presentation" : 1,
 					"presentation_linecount" : 3,
-					"presentation_rect" : [ 741.436004638671875, 40.5, 229.0, 47.0 ],
+					"presentation_rect" : [ 741.436004638671875, 40.5, 232.0, 47.0 ],
 					"text" : "there's a glitch. hit key of playlist number again to jam the random value correctly"
 				}
 
@@ -864,96 +864,13 @@
 					"accentcolor" : [ 0.880169, 0.755396, 0.471904, 1.0 ],
 					"basictuning" : 440,
 					"bgcolor" : [ 0.880169, 0.755396, 0.471904, 1.0 ],
-					"clipheight" : 33.285714285714285,
+					"clipheight" : 80.0,
 					"color" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"data" : 					{
-						"clips" : [ 							{
-								"absolutepath" : "/Users/danielfishkin/professional/older/fordham/fordhamstudents/Alex_Tuminello_4_Sound_Of_Voices.wav",
-								"filename" : "Alex_Tuminello_4_Sound_Of_Voices.wav",
-								"filekind" : "audiofile",
-								"id" : "u628010411",
-								"selection" : [ 0.598345341680557, 0.604074010748617 ],
-								"loop" : 1,
-								"content_state" : 								{
-									"loop" : 1
-								}
-
-							}
-, 							{
-								"absolutepath" : "/Users/danielfishkin/professional/older/fordham/fordhamstudents/Angela_Payne_3_Sound_I_Love.wav",
-								"filename" : "Angela_Payne_3_Sound_I_Love.wav",
-								"filekind" : "audiofile",
-								"id" : "u351010641",
-								"selection" : [ 0.268344226141703, 0.271716104330964 ],
-								"loop" : 1,
-								"content_state" : 								{
-									"loop" : 1
-								}
-
-							}
-, 							{
-								"absolutepath" : "/Users/danielfishkin/professional/older/fordham/fordhamstudents/Angela_Payne_4_voices.wav",
-								"filename" : "Angela_Payne_4_voices.wav",
-								"filekind" : "audiofile",
-								"id" : "u425010475",
-								"selection" : [ 0.852679486433157, 0.853088593104352 ],
-								"loop" : 1,
-								"content_state" : 								{
-									"loop" : 1
-								}
-
-							}
-, 							{
-								"absolutepath" : "/Users/danielfishkin/professional/older/fordham/fordhamstudents/Angelina_Fusto_Sound_People_Talking.wav",
-								"filename" : "Angelina_Fusto_Sound_People_Talking.wav",
-								"filekind" : "audiofile",
-								"id" : "u270010642",
-								"selection" : [ 0.552478185261465, 0.567228851325886 ],
-								"loop" : 1,
-								"content_state" : 								{
-									"loop" : 1
-								}
-
-							}
-, 							{
-								"absolutepath" : "/Users/danielfishkin/professional/older/fordham/fordhamstudents/JAPNOUR_RECORDING OF PEOPLE TALKING.wav",
-								"filename" : "JAPNOUR_RECORDING OF PEOPLE TALKING.wav",
-								"filekind" : "audiofile",
-								"id" : "u002010643",
-								"selection" : [ 0.564989128586254, 0.582930772416723 ],
-								"loop" : 1,
-								"content_state" : 								{
-									"loop" : 1
-								}
-
-							}
-, 							{
-								"absolutepath" : "/Users/danielfishkin/professional/older/fordham/fordhamstudents/kelsey-5.wav",
-								"filename" : "kelsey-5.wav",
-								"filekind" : "audiofile",
-								"id" : "u329010610",
-								"selection" : [ 0.220321535617958, 0.222129003136731 ],
-								"loop" : 1,
-								"content_state" : 								{
-									"loop" : 1
-								}
-
-							}
-, 							{
-								"absolutepath" : "/Users/danielfishkin/professional/older/fordham/fordhamstudents/LILA_Girls playing Catan.wav",
-								"filename" : "LILA_Girls playing Catan.wav",
-								"filekind" : "audiofile",
-								"id" : "u963010440",
-								"selection" : [ 0.564978770495631, 0.569104287262958 ],
-								"loop" : 1,
-								"content_state" : 								{
-									"loop" : 1
-								}
-
-							}
- ]
+						"clips" : [  ]
 					}
 ,
+					"expansion" : "static",
 					"followglobaltempo" : 0,
 					"fontsize" : 16.0,
 					"formantcorrection" : 0,
@@ -966,7 +883,7 @@
 					"originaltempo" : 120.0,
 					"outlettype" : [ "signal", "signal", "signal", "", "dictionary" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 45.936004638671875, 412.000000715255737, 350.0, 240.0 ],
+					"patching_rect" : [ 45.936004638671875, 412.000000715255737, 350.0, 117.0 ],
 					"pitchcorrection" : 0,
 					"presentation" : 1,
 					"presentation_rect" : [ 33.5, 247.000000715255737, 1208.0, 490.0 ],
@@ -1250,7 +1167,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 440.0, 607.0, 136.0, 22.0 ],
-					"text" : "clips[2]::durationms"
+					"text" : "clips[-1]::durationms"
 				}
 
 			}
@@ -1262,7 +1179,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 387.0, 734.0, 74.0, 22.0 ],
-					"text" : "36672."
+					"text" : "1915.125"
 				}
 
 			}
@@ -1470,7 +1387,6 @@
 									"numinlets" : 1,
 									"numoutlets" : 0,
 									"patching_rect" : [ 584.789893627166748, 119.0, 178.0, 40.0 ],
-									"presentation_linecount" : 2,
 									"text" : "randomizer. press R to select random!"
 								}
 
@@ -2458,7 +2374,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 57.5, 298.0, 273.0, 22.0 ],
-					"text" : "selectionms 3 31269.462126 31284.464886"
+					"text" : "selectionms 0 1035.877867 1075.6223"
 				}
 
 			}
@@ -2907,51 +2823,51 @@
 		}
 ,
 		"dependency_cache" : [ 			{
-				"name" : "Alex_Tuminello_4_Sound_Of_Voices.wav",
-				"bootpath" : "~/professional/older/fordham/fordhamstudents",
-				"patcherrelativepath" : "../../../professional/older/fordham/fordhamstudents",
+				"name" : "dax_harmonic_SHOUT.wav",
+				"bootpath" : "~/projects/corpus_daxophone/daxSAMPLES_NEW",
+				"patcherrelativepath" : "../../../projects/corpus_daxophone/daxSAMPLES_NEW",
 				"type" : "WAVE",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "Angela_Payne_3_Sound_I_Love.wav",
-				"bootpath" : "~/professional/older/fordham/fordhamstudents",
-				"patcherrelativepath" : "../../../professional/older/fordham/fordhamstudents",
+				"name" : "dax_MULTIPHONIC.wav",
+				"bootpath" : "~/projects/corpus_daxophone/daxSAMPLES_NEW",
+				"patcherrelativepath" : "../../../projects/corpus_daxophone/daxSAMPLES_NEW",
 				"type" : "WAVE",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "Angela_Payne_4_voices.wav",
-				"bootpath" : "~/professional/older/fordham/fordhamstudents",
-				"patcherrelativepath" : "../../../professional/older/fordham/fordhamstudents",
+				"name" : "daxCHORD.wav",
+				"bootpath" : "~/projects/corpus_daxophone/daxSAMPLES_NEW",
+				"patcherrelativepath" : "../../../projects/corpus_daxophone/daxSAMPLES_NEW",
 				"type" : "WAVE",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "Angelina_Fusto_Sound_People_Talking.wav",
-				"bootpath" : "~/professional/older/fordham/fordhamstudents",
-				"patcherrelativepath" : "../../../professional/older/fordham/fordhamstudents",
+				"name" : "daxchordCLUSTER.wav",
+				"bootpath" : "~/projects/corpus_daxophone/daxSAMPLES_NEW",
+				"patcherrelativepath" : "../../../projects/corpus_daxophone/daxSAMPLES_NEW",
 				"type" : "WAVE",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "JAPNOUR_RECORDING OF PEOPLE TALKING.wav",
-				"bootpath" : "~/professional/older/fordham/fordhamstudents",
-				"patcherrelativepath" : "../../../professional/older/fordham/fordhamstudents",
+				"name" : "DAXfournote 2.wav",
+				"bootpath" : "~/projects/corpus_daxophone/daxSAMPLES_NEW",
+				"patcherrelativepath" : "../../../projects/corpus_daxophone/daxSAMPLES_NEW",
 				"type" : "WAVE",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "kelsey-5.wav",
-				"bootpath" : "~/professional/older/fordham/fordhamstudents",
-				"patcherrelativepath" : "../../../professional/older/fordham/fordhamstudents",
+				"name" : "DAXfournote_1.wav",
+				"bootpath" : "~/projects/corpus_daxophone/daxSAMPLES_NEW",
+				"patcherrelativepath" : "../../../projects/corpus_daxophone/daxSAMPLES_NEW",
 				"type" : "WAVE",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "LILA_Girls playing Catan.wav",
-				"bootpath" : "~/professional/older/fordham/fordhamstudents",
-				"patcherrelativepath" : "../../../professional/older/fordham/fordhamstudents",
+				"name" : "DAXfournote.wav",
+				"bootpath" : "~/projects/corpus_daxophone/daxSAMPLES_NEW",
+				"patcherrelativepath" : "../../../projects/corpus_daxophone/daxSAMPLES_NEW",
 				"type" : "WAVE",
 				"implicit" : 1
 			}
