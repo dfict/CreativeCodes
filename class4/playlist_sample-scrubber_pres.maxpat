@@ -3,14 +3,14 @@
 		"fileversion" : 1,
 		"appversion" : 		{
 			"major" : 8,
-			"minor" : 1,
-			"revision" : 5,
+			"minor" : 6,
+			"revision" : 4,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 48.0, 79.0, 1058.0, 787.0 ],
+		"rect" : [ 92.0, 116.0, 1427.0, 946.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -113,6 +113,7 @@
 							"parameter_longname" : "live.gain~[1]",
 							"parameter_mmax" : 6.0,
 							"parameter_mmin" : -70.0,
+							"parameter_modmode" : 0,
 							"parameter_shortname" : "master volume",
 							"parameter_type" : 0,
 							"parameter_unitstyle" : 4
@@ -295,8 +296,8 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 8,
-							"minor" : 1,
-							"revision" : 5,
+							"minor" : 6,
+							"revision" : 4,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -867,7 +868,91 @@
 					"clipheight" : 80.0,
 					"color" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"data" : 					{
-						"clips" : [  ]
+						"clips" : [ 							{
+								"absolutepath" : "/Users/danielfishkin/Downloads/AT-101-1-202490-Corpus 3 Recordings-390946/Deysi Nazario Bello_361650_assignsubmission_file/AT 101 edited sound files /Trumpet and Bass dancing .wav",
+								"filename" : "Trumpet and Bass dancing .wav",
+								"filekind" : "audiofile",
+								"id" : "u766005222",
+								"selection" : [ 0.057722636935956, 0.059527030843234 ],
+								"loop" : 1,
+								"content_state" : 								{
+									"loop" : 1
+								}
+
+							}
+, 							{
+								"absolutepath" : "/Users/danielfishkin/Downloads/AT-101-1-202490-Corpus 3 Recordings-390946/Emiliano Camero Cortez_361646_assignsubmission_file/Corpus3-Emi/C3.singingsakura.mp3",
+								"filename" : "C3.singingsakura.mp3",
+								"filekind" : "audiofile",
+								"id" : "u699005243",
+								"selection" : [ 0.0724598637003, 0.074724939301889 ],
+								"loop" : 1,
+								"content_state" : 								{
+									"loop" : 1
+								}
+
+							}
+, 							{
+								"absolutepath" : "/Users/danielfishkin/Downloads/AT-101-1-202490-Corpus 3 Recordings-390946/Willow Lopez_361648_assignsubmission_file/W3 - My Fan It Speaks In Rotations/W3 - My Melody That Made Them Dance.wav",
+								"filename" : "W3 - My Melody That Made Them Dance.wav",
+								"filekind" : "audiofile",
+								"id" : "u936005263",
+								"selection" : [ 0.433595116310307, 0.437742627520158 ],
+								"loop" : 1,
+								"content_state" : 								{
+									"loop" : 1
+								}
+
+							}
+, 							{
+								"absolutepath" : "/Users/danielfishkin/Downloads/AT-101-1-202490-Corpus 3 Recordings-390946/Kristina Provost_361641_assignsubmission_file/Drums week two.wav",
+								"filename" : "Drums week two.wav",
+								"filekind" : "audiofile",
+								"id" : "u590005295",
+								"selection" : [ 0.0484742769219, 0.049989569614343 ],
+								"loop" : 1,
+								"content_state" : 								{
+									"loop" : 1
+								}
+
+							}
+, 							{
+								"absolutepath" : "/Users/danielfishkin/Downloads/AT-101-1-202490-Corpus 3 Recordings-390946/Kersyn McBride_361642_assignsubmission_file/week 3 coffee shop (people talking) .wav",
+								"filename" : "week 3 coffee shop (people talking) .wav",
+								"filekind" : "audiofile",
+								"id" : "u092005315",
+								"selection" : [ 0.048989939696346, 0.050521351866654 ],
+								"loop" : 1,
+								"content_state" : 								{
+									"loop" : 1
+								}
+
+							}
+, 							{
+								"absolutepath" : "/Users/danielfishkin/Downloads/AT-101-1-202490-Corpus 3 Recordings-390946/Rudmila Maliat Martuza_361640_assignsubmission_file/WK3_Sounds.wav/Sound-02.wav",
+								"filename" : "Sound-02.wav",
+								"filekind" : "audiofile",
+								"id" : "u111005335",
+								"selection" : [ 0.202339392782063, 0.208664467084253 ],
+								"loop" : 1,
+								"content_state" : 								{
+									"loop" : 1
+								}
+
+							}
+, 							{
+								"absolutepath" : "/Users/danielfishkin/Downloads/AT-101-1-202490-Corpus 3 Recordings-390946/Kersyn McBride_361642_assignsubmission_file/week 3 dog howling.wav",
+								"filename" : "week 3 dog howling.wav",
+								"filekind" : "audiofile",
+								"id" : "u151005543",
+								"selection" : [ 0.090452261306533, 0.099664991624791 ],
+								"loop" : 0,
+								"content_state" : 								{
+
+								}
+
+							}
+ ]
 					}
 ,
 					"expansion" : "static",
@@ -886,7 +971,7 @@
 					"patching_rect" : [ 45.936004638671875, 412.000000715255737, 350.0, 117.0 ],
 					"pitchcorrection" : 0,
 					"presentation" : 1,
-					"presentation_rect" : [ 33.5, 247.000000715255737, 1208.0, 490.0 ],
+					"presentation_rect" : [ 33.5, 247.000000715255737, 1249.0, 643.0 ],
 					"quality" : "basic",
 					"selectioncolor" : [ 0.156862745098039, 0.886274509803922, 0.47843137254902, 1.0 ],
 					"textcolor" : [ 0.529411764705882, 0.529411764705882, 0.529411764705882, 1.0 ],
@@ -1167,7 +1252,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 440.0, 607.0, 136.0, 22.0 ],
-					"text" : "clips[-1]::durationms"
+					"text" : "clips[2]::durationms"
 				}
 
 			}
@@ -1179,7 +1264,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 387.0, 734.0, 74.0, 22.0 ],
-					"text" : "1915.125"
+					"text" : "15747.1875"
 				}
 
 			}
@@ -1188,11 +1273,12 @@
 					"id" : "obj-14",
 					"maxclass" : "newobj",
 					"numinlets" : 2,
-					"numoutlets" : 4,
-					"outlettype" : [ "dictionary", "", "", "" ],
+					"numoutlets" : 5,
+					"outlettype" : [ "dictionary", "", "", "", "" ],
 					"patching_rect" : [ 440.0, 667.0, 50.5, 22.0 ],
 					"saved_object_attributes" : 					{
 						"embed" : 0,
+						"legacy" : 1,
 						"parameter_enable" : 0,
 						"parameter_mappable" : 0
 					}
@@ -1223,6 +1309,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
+					"parameter_enable" : 0,
 					"patching_rect" : [ 135.392161846160889, 364.0, 135.0, 22.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 886.392161846160889, 210.0, 135.0, 22.0 ]
@@ -1240,8 +1327,8 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 8,
-							"minor" : 1,
-							"revision" : 5,
+							"minor" : 6,
+							"revision" : 4,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -1358,7 +1445,7 @@
 									"maxclass" : "newobj",
 									"numinlets" : 2,
 									"numoutlets" : 1,
-									"outlettype" : [ "int" ],
+									"outlettype" : [ "" ],
 									"patching_rect" : [ 672.268867492675781, 283.193260431289673, 69.0, 22.0 ],
 									"text" : "random 40."
 								}
@@ -1627,7 +1714,7 @@
 									"maxclass" : "newobj",
 									"numinlets" : 2,
 									"numoutlets" : 1,
-									"outlettype" : [ "int" ],
+									"outlettype" : [ "" ],
 									"patching_rect" : [ 556.0, 384.626510812499987, 73.0, 22.0 ],
 									"text" : "random 127"
 								}
@@ -1639,7 +1726,7 @@
 									"maxclass" : "newobj",
 									"numinlets" : 2,
 									"numoutlets" : 1,
-									"outlettype" : [ "int" ],
+									"outlettype" : [ "" ],
 									"patching_rect" : [ 451.875, 384.626510812499987, 73.0, 22.0 ],
 									"text" : "random 127"
 								}
@@ -1779,7 +1866,7 @@
 									"outlettype" : [ "" ],
 									"parameter_enable" : 0,
 									"patching_rect" : [ 206.0, 317.2236328125, 135.0, 36.0 ],
-									"size" : 900.0
+									"size" : 1200.0
 								}
 
 							}
@@ -1793,7 +1880,7 @@
 									"outlettype" : [ "" ],
 									"parameter_enable" : 0,
 									"patching_rect" : [ 53.0, 317.2236328125, 135.0, 36.0 ],
-									"size" : 1440.0
+									"size" : 1920.0
 								}
 
 							}
@@ -2251,13 +2338,13 @@
 								"name" : "AudioStatus_Menu",
 								"default" : 								{
 									"bgfillcolor" : 									{
-										"type" : "color",
+										"angle" : 270,
+										"autogradient" : 0,
 										"color" : [ 0.294118, 0.313726, 0.337255, 1 ],
 										"color1" : [ 0.454902, 0.462745, 0.482353, 0 ],
 										"color2" : [ 0.290196, 0.309804, 0.301961, 1 ],
-										"angle" : 270,
 										"proportion" : 0.39,
-										"autogradient" : 0
+										"type" : "color"
 									}
 
 								}
@@ -2374,7 +2461,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 57.5, 298.0, 273.0, 22.0 ],
-					"text" : "selectionms 0 1035.877867 1075.6223"
+					"text" : "selectionms 3 6827.903596 6893.215232"
 				}
 
 			}
@@ -2823,51 +2910,51 @@
 		}
 ,
 		"dependency_cache" : [ 			{
-				"name" : "dax_harmonic_SHOUT.wav",
-				"bootpath" : "~/projects/corpus_daxophone/daxSAMPLES_NEW",
-				"patcherrelativepath" : "../../../projects/corpus_daxophone/daxSAMPLES_NEW",
+				"name" : "C3.singingsakura.mp3",
+				"bootpath" : "~/Downloads/AT-101-1-202490-Corpus 3 Recordings-390946/Emiliano Camero Cortez_361646_assignsubmission_file/Corpus3-Emi",
+				"patcherrelativepath" : "../../../Downloads/AT-101-1-202490-Corpus 3 Recordings-390946/Emiliano Camero Cortez_361646_assignsubmission_file/Corpus3-Emi",
+				"type" : "Mp3",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "Drums week two.wav",
+				"bootpath" : "~/Downloads/AT-101-1-202490-Corpus 3 Recordings-390946/Kristina Provost_361641_assignsubmission_file",
+				"patcherrelativepath" : "../../../Downloads/AT-101-1-202490-Corpus 3 Recordings-390946/Kristina Provost_361641_assignsubmission_file",
 				"type" : "WAVE",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "dax_MULTIPHONIC.wav",
-				"bootpath" : "~/projects/corpus_daxophone/daxSAMPLES_NEW",
-				"patcherrelativepath" : "../../../projects/corpus_daxophone/daxSAMPLES_NEW",
+				"name" : "Sound-02.wav",
+				"bootpath" : "~/Downloads/AT-101-1-202490-Corpus 3 Recordings-390946/Rudmila Maliat Martuza_361640_assignsubmission_file/WK3_Sounds.wav",
+				"patcherrelativepath" : "../../../Downloads/AT-101-1-202490-Corpus 3 Recordings-390946/Rudmila Maliat Martuza_361640_assignsubmission_file/WK3_Sounds.wav",
 				"type" : "WAVE",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "daxCHORD.wav",
-				"bootpath" : "~/projects/corpus_daxophone/daxSAMPLES_NEW",
-				"patcherrelativepath" : "../../../projects/corpus_daxophone/daxSAMPLES_NEW",
+				"name" : "Trumpet and Bass dancing .wav",
+				"bootpath" : "~/Downloads/AT-101-1-202490-Corpus 3 Recordings-390946/Deysi Nazario Bello_361650_assignsubmission_file/AT 101 edited sound files ",
+				"patcherrelativepath" : "../../../Downloads/AT-101-1-202490-Corpus 3 Recordings-390946/Deysi Nazario Bello_361650_assignsubmission_file/AT 101 edited sound files ",
 				"type" : "WAVE",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "daxchordCLUSTER.wav",
-				"bootpath" : "~/projects/corpus_daxophone/daxSAMPLES_NEW",
-				"patcherrelativepath" : "../../../projects/corpus_daxophone/daxSAMPLES_NEW",
+				"name" : "W3 - My Melody That Made Them Dance.wav",
+				"bootpath" : "~/Downloads/AT-101-1-202490-Corpus 3 Recordings-390946/Willow Lopez_361648_assignsubmission_file/W3 - My Fan It Speaks In Rotations",
+				"patcherrelativepath" : "../../../Downloads/AT-101-1-202490-Corpus 3 Recordings-390946/Willow Lopez_361648_assignsubmission_file/W3 - My Fan It Speaks In Rotations",
 				"type" : "WAVE",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "DAXfournote 2.wav",
-				"bootpath" : "~/projects/corpus_daxophone/daxSAMPLES_NEW",
-				"patcherrelativepath" : "../../../projects/corpus_daxophone/daxSAMPLES_NEW",
+				"name" : "week 3 coffee shop (people talking) .wav",
+				"bootpath" : "~/Downloads/AT-101-1-202490-Corpus 3 Recordings-390946/Kersyn McBride_361642_assignsubmission_file",
+				"patcherrelativepath" : "../../../Downloads/AT-101-1-202490-Corpus 3 Recordings-390946/Kersyn McBride_361642_assignsubmission_file",
 				"type" : "WAVE",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "DAXfournote_1.wav",
-				"bootpath" : "~/projects/corpus_daxophone/daxSAMPLES_NEW",
-				"patcherrelativepath" : "../../../projects/corpus_daxophone/daxSAMPLES_NEW",
-				"type" : "WAVE",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "DAXfournote.wav",
-				"bootpath" : "~/projects/corpus_daxophone/daxSAMPLES_NEW",
-				"patcherrelativepath" : "../../../projects/corpus_daxophone/daxSAMPLES_NEW",
+				"name" : "week 3 dog howling.wav",
+				"bootpath" : "~/Downloads/AT-101-1-202490-Corpus 3 Recordings-390946/Kersyn McBride_361642_assignsubmission_file",
+				"patcherrelativepath" : "../../../Downloads/AT-101-1-202490-Corpus 3 Recordings-390946/Kersyn McBride_361642_assignsubmission_file",
 				"type" : "WAVE",
 				"implicit" : 1
 			}
@@ -2877,13 +2964,13 @@
 				"name" : "AudioStatus_Menu",
 				"default" : 				{
 					"bgfillcolor" : 					{
-						"type" : "color",
+						"angle" : 270,
+						"autogradient" : 0,
 						"color" : [ 0.294118, 0.313726, 0.337255, 1 ],
 						"color1" : [ 0.454902, 0.462745, 0.482353, 0 ],
 						"color2" : [ 0.290196, 0.309804, 0.301961, 1 ],
-						"angle" : 270,
 						"proportion" : 0.39,
-						"autogradient" : 0
+						"type" : "color"
 					}
 
 				}
