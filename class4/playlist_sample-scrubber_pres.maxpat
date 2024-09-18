@@ -873,7 +873,7 @@
 								"filename" : "Trumpet and Bass dancing .wav",
 								"filekind" : "audiofile",
 								"id" : "u766005222",
-								"selection" : [ 0.057722636935956, 0.059527030843234 ],
+								"selection" : [ 0.052528070931978, 0.052877843608661 ],
 								"loop" : 1,
 								"content_state" : 								{
 									"loop" : 1
@@ -885,7 +885,7 @@
 								"filename" : "C3.singingsakura.mp3",
 								"filekind" : "audiofile",
 								"id" : "u699005243",
-								"selection" : [ 0.0724598637003, 0.074724939301889 ],
+								"selection" : [ 0.140009643724467, 0.140379215506856 ],
 								"loop" : 1,
 								"content_state" : 								{
 									"loop" : 1
@@ -897,7 +897,7 @@
 								"filename" : "W3 - My Melody That Made Them Dance.wav",
 								"filekind" : "audiofile",
 								"id" : "u936005263",
-								"selection" : [ 0.433595116310307, 0.437742627520158 ],
+								"selection" : [ 0.361429416301848, 0.362383451395697 ],
 								"loop" : 1,
 								"content_state" : 								{
 									"loop" : 1
@@ -909,7 +909,7 @@
 								"filename" : "Drums week two.wav",
 								"filekind" : "audiofile",
 								"id" : "u590005295",
-								"selection" : [ 0.0484742769219, 0.049989569614343 ],
+								"selection" : [ 0.112052132558712, 0.112299369083971 ],
 								"loop" : 1,
 								"content_state" : 								{
 									"loop" : 1
@@ -921,7 +921,7 @@
 								"filename" : "week 3 coffee shop (people talking) .wav",
 								"filekind" : "audiofile",
 								"id" : "u092005315",
-								"selection" : [ 0.048989939696346, 0.050521351866654 ],
+								"selection" : [ 0.298604682899922, 0.299818129196671 ],
 								"loop" : 1,
 								"content_state" : 								{
 									"loop" : 1
@@ -1252,19 +1252,20 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 440.0, 607.0, 136.0, 22.0 ],
-					"text" : "clips[2]::durationms"
+					"text" : "clips[0]::durationms"
 				}
 
 			}
 , 			{
 				"box" : 				{
 					"id" : "obj-1",
+					"linecount" : 2,
 					"maxclass" : "message",
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 387.0, 734.0, 74.0, 22.0 ],
-					"text" : "15747.1875"
+					"patching_rect" : [ 387.0, 734.0, 74.0, 35.0 ],
+					"text" : "51029.333333"
 				}
 
 			}
@@ -2461,7 +2462,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 57.5, 298.0, 273.0, 22.0 ],
-					"text" : "selectionms 3 6827.903596 6893.215232"
+					"text" : "selectionms 1 2680.472441 2698.321107"
 				}
 
 			}
