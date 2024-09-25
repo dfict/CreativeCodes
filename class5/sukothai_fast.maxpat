@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 1705.0, 63.0, 1124.0, 899.0 ],
+		"rect" : [ 1594.0, 83.0, 1637.0, 1026.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -81,7 +81,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 809.0, 206.5, 150.0, 33.0 ],
-					"presentation_linecount" : 2,
 					"text" : "after carl stone's \"sukothai\""
 				}
 
@@ -629,7 +628,7 @@
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 59.0, 104.0, 822.0, 588.0 ],
+						"rect" : [ 1916.0, 159.0, 822.0, 588.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -1132,7 +1131,7 @@
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 59.0, 104.0, 822.0, 588.0 ],
+						"rect" : [ 2110.0, 126.0, 822.0, 588.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -3647,7 +3646,7 @@
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 59.0, 104.0, 822.0, 588.0 ],
+						"rect" : [ 2051.0, 225.0, 822.0, 588.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -4186,7 +4185,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "float" ],
-					"patching_rect" : [ 34.0, 121.0, 80.0, 13.0 ]
+					"patching_rect" : [ 34.000001013278961, 140.000004172325134, 80.0, 13.0 ]
 				}
 
 			}
@@ -4449,7 +4448,7 @@
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 59.0, 104.0, 822.0, 588.0 ],
+						"rect" : [ 2182.0, 86.0, 822.0, 588.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
