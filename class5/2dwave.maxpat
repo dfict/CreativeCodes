@@ -93,7 +93,7 @@
 				"box" : 				{
 					"autopopulate" : 1,
 					"id" : "obj-4",
-					"items" : [ "LinusandLucy.mp3", ",", "PowerToThePeople.mp3", ",", "Vondutch.mp3" ],
+					"items" : [ "LinusandLucy.mp3", ",", "PowerToThePeople.mp3", ",", "Vondutch.mp3", ",", "ZDVNO_loop.aif" ],
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
@@ -800,6 +800,13 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-63", 0 ],
+					"source" : [ "obj-13", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-1", 0 ],
 					"order" : 0,
 					"source" : [ "obj-15", 0 ]
@@ -974,15 +981,6 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-28", 0 ],
-					"order" : 0,
-					"source" : [ "obj-7", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-63", 0 ],
-					"order" : 1,
 					"source" : [ "obj-7", 0 ]
 				}
 
