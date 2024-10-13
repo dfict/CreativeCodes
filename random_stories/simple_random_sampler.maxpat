@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 59.0, 104.0, 928.0, 713.0 ],
+		"rect" : [ 59.0, 104.0, 808.0, 680.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -39,6 +39,33 @@
 		"subpatcher_template" : "",
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 13.0,
+					"id" : "obj-28",
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 389.0, 57.0, 107.0, 23.0 ],
+					"text" : "C74:/media/msp/"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-14",
+					"linecount" : 3,
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 527.0, 49.0, 176.0, 49.0 ],
+					"text" : "airplane2:/Users/danielfishkin/gitprojects/CreativeCodes/random_stories/Audio/"
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
@@ -314,11 +341,17 @@
 , 							{
 								"box" : 								{
 									"embed_buffers" : 									{
-										"footstep.1" : "across the timeline there is a connection.wav",
-										"footstep.2" : "appropriating campus  .wav",
-										"footstep.3" : "Assalamu Alaikum.wav",
-										"footstep.4" : "Become what you must .wav",
-										"footstep.5" : "Not shocked... intrigued.wav"
+										"footstep.1" : "corpus 6, kersyn travel experience.wav",
+										"footstep.2" : "corpus 6, kersyn where she wants to live.wav",
+										"footstep.3" : "Interview_part_1.wav",
+										"footstep.4" : "Interview_part_2.wav",
+										"footstep.5" : "Interview_part_3.wav",
+										"footstep.6" : "Interview_part_4.wav",
+										"footstep.7" : "Interview_part_4_B.wav",
+										"footstep.8" : "Interview_part_5.wav",
+										"footstep.9" : "week 6, kersyn dinner table.wav",
+										"footstep.10" : "week 6, kersyn favorite class.wav",
+										"footstep.11" : "week 6, kersyn icebreaker (3).wav"
 									}
 ,
 									"fontname" : "Arial",
@@ -625,7 +658,7 @@
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 134.0, 157.0, 836.0, 702.0 ],
+						"rect" : [ 134.0, 157.0, 640.0, 480.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -799,7 +832,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 136.0, 360.0, 93.0, 22.0 ],
-									"text" : "62835.736961"
+									"text" : "3478.45805"
 								}
 
 							}
@@ -922,7 +955,7 @@
 									"numinlets" : 3,
 									"numoutlets" : 2,
 									"outlettype" : [ "signal", "signal" ],
-									"patching_rect" : [ 90.5, 420.72072046995163, 110.0, 22.0 ],
+									"patching_rect" : [ 90.5, 414.0, 110.0, 22.0 ],
 									"text" : "groove~ footstep.1"
 								}
 
@@ -1189,8 +1222,22 @@
  ],
 		"lines" : [ 			{
 				"patchline" : 				{
+					"destination" : [ "obj-87", 0 ],
+					"source" : [ "obj-14", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-76", 0 ],
 					"source" : [ "obj-2", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-87", 0 ],
+					"source" : [ "obj-28", 0 ]
 				}
 
 			}

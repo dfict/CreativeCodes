@@ -630,7 +630,7 @@
 					"fontname" : "Verdana",
 					"fontsize" : 18.0,
 					"id" : "obj-29",
-					"items" : [ "kpp9c_bba_01", ",", "kpp9c_bba_02", ",", "kpp9c_bba_03", ",", "kpp9c_bba_04", ",", "kpp9c_bba_05", ",", "kpp9c_bba_19_r" ],
+					"items" : [ "corpus 6, kersyn travel experience", ",", "corpus 6, kersyn where she wants to live", ",", "Interview_part_1", ",", "Interview_part_2", ",", "Interview_part_3", ",", "Interview_part_4", ",", "Interview_part_4_B", ",", "Interview_part_5", ",", "week 6, kersyn dinner table", ",", "week 6, kersyn favorite class", ",", "week 6, kersyn icebreaker (3)" ],
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
@@ -3283,7 +3283,7 @@
 				"box" : 				{
 					"allowdrag" : 0,
 					"bgcolor" : [ 0.0, 0.0, 1.0, 1.0 ],
-					"buffername" : "bufferz.1",
+					"buffername" : "bufferz.4",
 					"gridcolor" : [ 0.901961, 0.901961, 0.901961, 1.0 ],
 					"id" : "obj-10",
 					"labels" : 0,
@@ -3337,13 +3337,13 @@
 					"fontname" : "Verdana Bold",
 					"fontsize" : 14.0,
 					"id" : "obj-48",
-					"linecount" : 3,
+					"linecount" : 2,
 					"maxclass" : "message",
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 328.071411000000012, 475.0, 154.0, 60.0 ],
-					"text" : "\"corpus 6, kersyn travel experience.wav\""
+					"patching_rect" : [ 328.071411000000012, 475.0, 154.0, 43.0 ],
+					"text" : "Interview_part_2.wav"
 				}
 
 			}
@@ -3457,7 +3457,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"parameter_enable" : 1,
-					"patching_rect" : [ 166.0, 265.25, 130.261353000000014, 21.0 ],
+					"patching_rect" : [ 90.238647, 221.25, 130.261353000000014, 21.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_initial" : [ 2.0 ],
@@ -3832,13 +3832,12 @@
 									"fontname" : "Arial",
 									"fontsize" : 13.0,
 									"id" : "obj-4",
-									"linecount" : 2,
 									"maxclass" : "message",
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 531.0, 370.0, 139.0, 38.0 ],
-									"text" : "\"corpus 6, kersyn travel experience.wav\""
+									"text" : "Interview_part_2.wav"
 								}
 
 							}
@@ -3896,7 +3895,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 114.0, 432.0, 330.0, 23.0 ],
-									"text" : "bufferz.1"
+									"text" : "bufferz.4"
 								}
 
 							}
@@ -4050,7 +4049,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 114.0, 323.0, 93.0, 22.0 ],
-									"text" : "60458.666667"
+									"text" : "81125.306122"
 								}
 
 							}
