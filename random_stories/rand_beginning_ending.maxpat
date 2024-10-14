@@ -40,6 +40,54 @@
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
+					"id" : "obj-25",
+					"maxclass" : "newobj",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "bang" ],
+					"patching_rect" : [ 747.0, 309.0, 61.0, 22.0 ],
+					"text" : "delay 100"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-24",
+					"maxclass" : "button",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "bang" ],
+					"parameter_enable" : 0,
+					"patching_rect" : [ 740.0, 174.0, 24.0, 24.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-22",
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 728.0, 261.225371999999993, 113.0, 22.0 ],
+					"text" : "selection 1 0.75 0.9"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-21",
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 603.0, 261.225371999999993, 113.0, 22.0 ],
+					"text" : "selection 1 0.2 0.23"
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"id" : "obj-18",
 					"maxclass" : "toggle",
 					"numinlets" : 1,
@@ -719,7 +767,7 @@
 								"filename" : "wooden_musicBOX.wav",
 								"filekind" : "audiofile",
 								"id" : "u965008363",
-								"selection" : [ 0.58, 1.0 ],
+								"selection" : [ 0.2, 0.23 ],
 								"loop" : 0,
 								"content_state" : 								{
 
@@ -757,7 +805,7 @@
 								"filename" : "Interview_part_1.wav",
 								"filekind" : "audiofile",
 								"id" : "u897008652",
-								"selection" : [ 0.9, 1.0 ],
+								"selection" : [ 0.75, 0.9 ],
 								"loop" : 0,
 								"content_state" : 								{
 
@@ -910,6 +958,36 @@
 				"patchline" : 				{
 					"destination" : [ "obj-16", 0 ],
 					"source" : [ "obj-18", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-6", 0 ],
+					"source" : [ "obj-21", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-4", 0 ],
+					"source" : [ "obj-22", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-21", 0 ],
+					"order" : 1,
+					"source" : [ "obj-24", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-22", 0 ],
+					"order" : 0,
+					"source" : [ "obj-24", 0 ]
 				}
 
 			}
