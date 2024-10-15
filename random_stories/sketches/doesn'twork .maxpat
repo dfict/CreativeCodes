@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 34.0, 79.0, 967.0, 787.0 ],
+		"rect" : [ 34.0, 79.0, 1334.0, 787.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -233,14 +233,13 @@
 					"fontname" : "Geneva",
 					"fontsize" : 10.0,
 					"id" : "obj-22",
-					"linecount" : 3,
+					"linecount" : 4,
 					"maxclass" : "message",
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 905.66669225692749, 451.388910412788391, 163.5, 46.0 ],
-					"presentation_linecount" : 3,
-					"text" : "airplane2:/Users/danielfishkin/gitprojects/CreativeCodes/random_stories/media/Audio"
+					"patching_rect" : [ 905.66669225692749, 451.388910412788391, 163.5, 58.0 ],
+					"text" : "airplane2:/Users/danielfishkin/gitprojects/CreativeCodes/random_stories/sketches/media/Audio"
 				}
 
 			}
@@ -1629,7 +1628,7 @@
 ,
 		"dependency_cache" : [ 			{
 				"name" : "cicada.maxpat",
-				"bootpath" : "~/gitprojects/CreativeCodes/random_stories",
+				"bootpath" : "~/gitprojects/CreativeCodes/random_stories/sketches",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1

@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 59.0, 104.0, 929.0, 759.0 ],
+		"rect" : [ 58.0, 79.0, 929.0, 759.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -589,14 +589,14 @@
 									"autopopulate" : 1,
 									"depth" : 20,
 									"id" : "obj-41",
-									"items" : "<empty>",
+									"items" : [ "corpus 6, kersyn travel experience.wav", ",", "corpus 6, kersyn where she wants to live.wav", ",", "Interview_part_1.wav", ",", "Interview_part_2.wav", ",", "Interview_part_3.wav", ",", "Interview_part_4.wav", ",", "Interview_part_4_B.wav", ",", "Interview_part_5.wav", ",", "week 6, kersyn dinner table.wav", ",", "week 6, kersyn favorite class.wav", ",", "week 6, kersyn icebreaker (3).wav" ],
 									"maxclass" : "umenu",
 									"numinlets" : 1,
 									"numoutlets" : 3,
 									"outlettype" : [ "int", "", "" ],
 									"parameter_enable" : 0,
 									"patching_rect" : [ 343.75, 143.0, 100.0, 22.0 ],
-									"prefix" : "~/OneDrive - Universite de Montreal/Bureau/BUG/ShortCorpus/",
+									"prefix" : "~/gitprojects/CreativeCodes/random_stories/Audio/",
 									"types" : [ "AIFF", "WAVE", "FLAC" ],
 									"varname" : "umenu"
 								}
@@ -1301,7 +1301,7 @@
 ,
 		"dependency_cache" : [ 			{
 				"name" : "_player.maxpat",
-				"bootpath" : "~/gitprojects/CreativeCodes/random_stories/Jean-PhilippeJullin_",
+				"bootpath" : "~/gitprojects/CreativeCodes/random_stories/Jean-PhilippeJullin_/testing",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1

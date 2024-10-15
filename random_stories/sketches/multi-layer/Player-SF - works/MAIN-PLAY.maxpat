@@ -10,10 +10,10 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 97.0, 134.0, 781.0, 670.0 ],
+		"rect" : [ 679.0, 110.0, 800.0, 708.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
-		"default_fontsize" : 11.0,
+		"default_fontsize" : 12.0,
 		"default_fontface" : 0,
 		"default_fontname" : "Arial",
 		"gridonopen" : 1,
@@ -22,11 +22,11 @@
 		"objectsnaponopen" : 1,
 		"statusbarvisible" : 2,
 		"toolbarvisible" : 1,
-		"lefttoolbarpinned" : 2,
-		"toptoolbarpinned" : 2,
-		"righttoolbarpinned" : 2,
-		"bottomtoolbarpinned" : 2,
-		"toolbars_unpinned_last_save" : 15,
+		"lefttoolbarpinned" : 0,
+		"toptoolbarpinned" : 0,
+		"righttoolbarpinned" : 0,
+		"bottomtoolbarpinned" : 0,
+		"toolbars_unpinned_last_save" : 0,
 		"tallnewobj" : 0,
 		"boxanimatetime" : 200,
 		"enablehscroll" : 1,
@@ -69,7 +69,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 466.0, 122.000002259989287, 95.0, 21.0 ],
+					"patching_rect" : [ 466.0, 122.000002259989287, 103.0, 22.0 ],
 					"text" : "types WAVE AIFF"
 				}
 
@@ -81,7 +81,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
-					"patching_rect" : [ 466.0, 64.0, 54.0, 21.0 ],
+					"patching_rect" : [ 466.0, 64.0, 58.0, 22.0 ],
 					"text" : "loadbang"
 				}
 
@@ -93,7 +93,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 481.0, 90.000002259989287, 56.0, 21.0 ],
+					"patching_rect" : [ 481.0, 90.000002259989287, 60.0, 22.0 ],
 					"text" : "types fold"
 				}
 
@@ -105,7 +105,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
-					"patching_rect" : [ 444.0, 335.0, 21.0, 21.0 ],
+					"patching_rect" : [ 444.0, 335.0, 22.0, 22.0 ],
 					"text" : "t b"
 				}
 
@@ -164,7 +164,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "bang" ],
-					"patching_rect" : [ 203.979166666666742, 496.898984740010633, 29.5, 21.0 ],
+					"patching_rect" : [ 203.979166666666742, 496.898984740010633, 29.5, 22.0 ],
 					"text" : "t l b"
 				}
 
@@ -176,7 +176,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "int", "clear" ],
-					"patching_rect" : [ 254.5, 227.89898699999992, 47.0, 21.0 ],
+					"patching_rect" : [ 254.5, 227.89898699999992, 47.0, 22.0 ],
 					"text" : "t i clear"
 				}
 
@@ -757,14 +757,14 @@
 					"fontsize" : 11.0,
 					"id" : "obj-41",
 					"ignoreclick" : 1,
-					"items" : "<empty>",
+					"items" : [ "corpus 6, kersyn travel experience.wav", ",", "corpus 6, kersyn where she wants to live.wav", ",", "Interview_part_1.wav", ",", "Interview_part_2.wav", ",", "Interview_part_3.wav", ",", "Interview_part_4.wav", ",", "Interview_part_4_B.wav", ",", "Interview_part_5.wav", ",", "week 6, kersyn dinner table.wav", ",", "week 6, kersyn favorite class.wav", ",", "week 6, kersyn icebreaker (3).wav" ],
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "int", "", "" ],
 					"parameter_enable" : 0,
 					"patching_rect" : [ 214.041666666666742, 155.000002259989287, 233.375, 21.0 ],
-					"prefix" : "<none>",
+					"prefix" : "~/gitprojects/CreativeCodes/random_stories/Audio/",
 					"types" : [ "WAVE", "AIFF" ],
 					"varname" : "umenu"
 				}
@@ -1289,6 +1289,11 @@
 		"parameters" : 		{
 			"obj-19" : [ "live.gain~[3]", "Volume", 0 ],
 			"parameterbanks" : 			{
+				"0" : 				{
+					"index" : 0,
+					"name" : "",
+					"parameters" : [ "-", "-", "-", "-", "-", "-", "-", "-" ]
+				}
 
 			}
 ,
@@ -1303,9 +1308,7 @@
 				"implicit" : 1
 			}
  ],
-		"autosave" : 0,
-		"bgcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
-		"editing_bgcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
+		"autosave" : 0
 	}
 
 }
