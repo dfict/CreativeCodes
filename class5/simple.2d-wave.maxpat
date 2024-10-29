@@ -399,7 +399,7 @@
 				"box" : 				{
 					"autopopulate" : 1,
 					"id" : "obj-10",
-					"items" : [ "LinusandLucy.mp3", ",", "PowerToThePeople.mp3", ",", "Vondutch.mp3" ],
+					"items" : [ "LinusandLucy.mp3", ",", "PowerToThePeople.mp3", ",", "Vondutch.mp3", ",", "ZDVNO_loop.aif" ],
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,

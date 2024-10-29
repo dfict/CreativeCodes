@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 51.0, 83.0, 1627.0, 1050.0 ],
+		"rect" : [ 34.0, 79.0, 1372.0, 787.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -1025,7 +1025,7 @@
 									"outlettype" : [ "", "", "", "" ],
 									"patching_rect" : [ 39.736206000000003, 131.32098400000001, 59.5, 22.0 ],
 									"restore" : 									{
-										"Damping" : [ 851.404180511201844 ],
+										"Damping" : [ 851.404180511202185 ],
 										"Decay" : [ 62.204724409448787 ],
 										"Diffusion" : [ 1.0 ],
 										"Mix" : [ 86.614173228346516 ],
@@ -2153,14 +2153,14 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 539.0, 439.0, 336.000010013580322, 32.0 ],
-					"text" : "\"SW WK2 guitaar tunings ethereal\""
+					"text" : "Arb_Cherry_19c"
 				}
 
 			}
 , 			{
 				"box" : 				{
 					"allowdrag" : 0,
-					"buffername" : "crust.12",
+					"buffername" : "crust.39",
 					"id" : "obj-29",
 					"maxclass" : "waveform~",
 					"numinlets" : 5,
@@ -2396,14 +2396,14 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 104.0, 446.0, 354.666677236557007, 32.0 ],
-					"text" : "\"Assalamu Alaikum\""
+					"text" : "Arb_Cherry_10e"
 				}
 
 			}
 , 			{
 				"box" : 				{
 					"allowdrag" : 0,
-					"buffername" : "shell.3",
+					"buffername" : "shell.5",
 					"id" : "obj-27",
 					"maxclass" : "waveform~",
 					"numinlets" : 5,
