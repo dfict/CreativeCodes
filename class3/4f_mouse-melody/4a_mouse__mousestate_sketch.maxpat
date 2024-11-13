@@ -3,8 +3,8 @@
 		"fileversion" : 1,
 		"appversion" : 		{
 			"major" : 8,
-			"minor" : 1,
-			"revision" : 5,
+			"minor" : 6,
+			"revision" : 4,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
@@ -39,6 +39,39 @@
 		"subpatcher_template" : "",
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
+				"box" : 				{
+					"channels" : 1,
+					"fontsize" : 13.0,
+					"id" : "obj-1",
+					"lastchannelcount" : 0,
+					"maxclass" : "live.gain~",
+					"numinlets" : 1,
+					"numoutlets" : 4,
+					"orientation" : 1,
+					"outlettype" : [ "signal", "", "float", "list" ],
+					"parameter_enable" : 1,
+					"patching_rect" : [ 643.0, 588.0, 136.0, 35.0 ],
+					"saved_attribute_attributes" : 					{
+						"valueof" : 						{
+							"parameter_initial" : [ -70 ],
+							"parameter_initial_enable" : 1,
+							"parameter_longname" : "live.gain~[1]",
+							"parameter_mmax" : 6.0,
+							"parameter_mmin" : -70.0,
+							"parameter_modmode" : 0,
+							"parameter_shortname" : "live.gain~",
+							"parameter_type" : 0,
+							"parameter_unitstyle" : 4
+						}
+
+					}
+,
+					"showname" : 0,
+					"varname" : "live.gain~[1]"
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"bubble" : 1,
 					"fontname" : "Arial",
@@ -216,7 +249,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 602.25, 284.0, 50.0, 36.0 ],
-					"presentation_linecount" : 2,
 					"text" : "Hor. Delta",
 					"textcolor" : [ 0.501961, 0.501961, 0.501961, 1.0 ]
 				}
@@ -232,7 +264,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 550.0, 284.0, 56.0, 36.0 ],
-					"presentation_linecount" : 2,
 					"text" : "Ver. Position",
 					"textcolor" : [ 0.501961, 0.501961, 0.501961, 1.0 ]
 				}
@@ -248,7 +279,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 439.0, 284.0, 56.0, 36.0 ],
-					"presentation_linecount" : 2,
 					"text" : "Hor. Position",
 					"textcolor" : [ 0.501961, 0.501961, 0.501961, 1.0 ]
 				}
@@ -346,7 +376,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 657.5, 284.0, 47.0, 36.0 ],
-					"presentation_linecount" : 2,
 					"text" : "Ver. Delta",
 					"textcolor" : [ 0.501961, 0.501961, 0.501961, 1.0 ]
 				}
@@ -416,6 +445,7 @@
 							"parameter_longname" : "flonum[1]",
 							"parameter_mmax" : 10000.0,
 							"parameter_mmin" : 10.0,
+							"parameter_modmode" : 0,
 							"parameter_shortname" : "flonum",
 							"parameter_type" : 3
 						}
@@ -527,7 +557,7 @@
 					"orientation" : 1,
 					"outlettype" : [ "signal", "", "float", "list" ],
 					"parameter_enable" : 1,
-					"patching_rect" : [ 503.0, 588.0, 136.0, 35.0 ],
+					"patching_rect" : [ 461.5, 588.0, 136.0, 35.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_initial" : [ -70 ],
@@ -535,6 +565,7 @@
 							"parameter_longname" : "live.gain~",
 							"parameter_mmax" : 6.0,
 							"parameter_mmin" : -70.0,
+							"parameter_modmode" : 0,
 							"parameter_shortname" : "live.gain~",
 							"parameter_type" : 0,
 							"parameter_unitstyle" : 4
@@ -569,6 +600,7 @@
 							"parameter_longname" : "flonum",
 							"parameter_mmax" : 10000.0,
 							"parameter_mmin" : 10.0,
+							"parameter_modmode" : 0,
 							"parameter_shortname" : "flonum",
 							"parameter_type" : 3
 						}
@@ -596,6 +628,13 @@
 			}
  ],
 		"lines" : [ 			{
+				"patchline" : 				{
+					"destination" : [ "obj-2", 1 ],
+					"source" : [ "obj-1", 0 ]
+				}
+
+			}
+, 			{
 				"patchline" : 				{
 					"destination" : [ "obj-42", 0 ],
 					"midpoints" : [ 382.5, 127.0, 382.5, 127.0 ],
@@ -640,7 +679,7 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-27", 0 ],
+					"destination" : [ "obj-1", 0 ],
 					"source" : [ "obj-19", 0 ]
 				}
 
@@ -671,16 +710,7 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-2", 1 ],
-					"order" : 0,
-					"source" : [ "obj-27", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
 					"destination" : [ "obj-2", 0 ],
-					"order" : 1,
 					"source" : [ "obj-27", 0 ]
 				}
 
@@ -779,6 +809,7 @@
 			}
  ],
 		"parameters" : 		{
+			"obj-1" : [ "live.gain~[1]", "live.gain~", 0 ],
 			"obj-11" : [ "flonum", "flonum", 0 ],
 			"obj-18" : [ "flonum[1]", "flonum", 0 ],
 			"obj-27" : [ "live.gain~", "live.gain~", 0 ],
@@ -795,13 +826,13 @@
 				"name" : "AudioStatus_Menu",
 				"default" : 				{
 					"bgfillcolor" : 					{
-						"type" : "color",
+						"angle" : 270,
+						"autogradient" : 0,
 						"color" : [ 0.294118, 0.313726, 0.337255, 1 ],
 						"color1" : [ 0.454902, 0.462745, 0.482353, 0 ],
 						"color2" : [ 0.290196, 0.309804, 0.301961, 1 ],
-						"angle" : 270,
 						"proportion" : 0.39,
-						"autogradient" : 0
+						"type" : "color"
 					}
 
 				}
