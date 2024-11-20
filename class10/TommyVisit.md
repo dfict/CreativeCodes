@@ -1,6 +1,10 @@
 TommyVisit
 
 some reading materials
+
+https://tommys-research.notion.site/Musical-Web-Talk-1432a269f8cd802496eff654bfa6f554
+everyone go here in class!
+
 https://musical-web-fall2024.notion.site/ 
 
 https://editor.p5js.org/thomasjohnmartinez/collections/Dp0zGclVL
@@ -9,8 +13,6 @@ https://ml5js.org/
 https://p5js.org/
 
 https://github.com/processing/p5.sound.js?tab=readme-ov-file
-
-https://tommys-research.notion.site/Musical-Web-Talk-1432a269f8cd802496eff654bfa6f554
 
 https://www.openslr.org/resources.php different corpus 
 
