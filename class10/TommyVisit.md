@@ -8,6 +8,8 @@ everyone go here in class!
 https://musical-web-fall2024.notion.site/ 
 
 https://editor.p5js.org/thomasjohnmartinez/collections/Dp0zGclVL
+everyone go here in class!
+
 https://ml5js.org/
 
 https://p5js.org/
